@@ -1,0 +1,8 @@
+---
+- name: Install project
+  hosts: localhost
+  connection: local
+
+  roles:
+    - docker
+    - docker-compose
